@@ -157,14 +157,14 @@ tags:
     description: Household management routes
 
 paths:
-  /:
-    get:
-      tags:
-        - General
-      summary: Root route (For testing site availability)
-      responses:
-        '200':
-          description: Everything is working fine.
+  # /:
+  #   get:
+  #     tags:
+  #       - General
+  #     summary: Root route (For testing site availability)
+  #     responses:
+  #       '200':
+  #         description: Everything is working fine.
 
   /userVerify:
     get:
